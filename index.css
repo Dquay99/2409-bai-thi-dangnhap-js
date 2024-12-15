@@ -1,0 +1,65 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mt-18 {
+    margin-top: 18px;
+}
+
+th,td {
+    padding-right: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px
+}
+.nav button {
+    border: none;
+    padding: 8px 12px;
+    background-color: bisque ;
+    border-radius: 12px;
+}
+
+.nav button:hover {
+    background-color: blanchedalmond;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
